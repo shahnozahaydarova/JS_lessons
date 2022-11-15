@@ -1,0 +1,30 @@
+.color{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rebeccapurple;
+    animation-name: collor;
+    animation-duration: 10s;
+}
+@keyframes collor{
+    0%{
+        top: 0px;
+        background-color: indianred;
+    }
+    25%{
+        top: 200px;
+        background-color: indigo;
+    }
+    50%{
+        top: 0px;
+        background-color: black;
+    }
+    75%{
+        left: 200px;
+        background-color: indigo;
+    }
+    100%{
+        left: 0;
+        background-color: rgb(235, 156, 10);
+    }
+}
