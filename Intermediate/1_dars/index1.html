@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rasm{
+            position: absolute;
+            top: 10px;
+            left: 400px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h1> Ism: <span id="ism"></span> </h1>
+    <h1> Familiya: <span id="familiya"></span> </h1>
+    <h1> Yosh: <span id="yosh"></span> </h1>
+
+    <div id="image"></div>
+
+   
+    <script>
+        ism = prompt('Ismingizni kiriting: ')
+        familiya = prompt('Familiyangizni kiriting: ')
+        yosh = prompt('Yoshingizni kiriting: ')
+        rasm_url = prompt('Rasm manzilini kiriting: ')
+        
+        
+        document.getElementById("ism").innerHTML = `${ism}`
+        document.getElementById("familiya").innerHTML = `${familiya}`
+        document.getElementById("yosh").innerHTML = `${yosh}`
+        
+        document.getElementById("image").innerHTML = `<img class="rasm" src="${rasm_url}">`
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>

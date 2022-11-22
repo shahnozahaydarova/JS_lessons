@@ -1,0 +1,12 @@
+body{
+    background-color: indigo;
+    text-align: center;
+}
+input{
+    width: 120px;
+    height: 35px;
+}
+input:hover{
+    background-color: rgb(174, 83, 240);
+    transform: scale(1.2);
+}

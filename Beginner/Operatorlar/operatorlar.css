@@ -1,0 +1,14 @@
+body{
+    background-color: #05041b;
+    color: rgb(212, 233, 91);
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 23px;
+}
+.h1 ,h1{
+    color: #d16703;
+    font-size: 50px;
+    margin-top: 25px;
+}

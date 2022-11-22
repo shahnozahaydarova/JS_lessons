@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        div{
+            position: relative;
+            top: 200px;
+            font-size: 50px;
+        }
+        button{
+            position: relative;
+            top: 210px;
+            width: 200px;
+            height: 40px;
+        }
+        button:hover{
+            background-color: rgb(17, 105, 105);
+        }
+    </style>
+</head>
+<body>
+    <div>Ism :  <span id="s1"></span> </div>
+    <div>Familiya: <span id="s2"></span></div>
+    <button onclick="document.getElementById('s1').style.textTransform  = 'upperCase'" >Bosing ism harflari katta harfga o'zgaradi</button>
+    <button onclick="document.getElementById('s2').style.textTransform  = 'upperCase'" >Bosing familiya harflari katta harfga o'zgaradi</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
